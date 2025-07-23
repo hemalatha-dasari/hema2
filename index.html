@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PID Control of Rotary Inverted Pendulum</title>
+  <link rel="stylesheet" href="pid-style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PID Control of Rotary Inverted Pendulum</h1>
+    <p class="subtitle">This experiment focuses on the design and analysis of a control system for a rotary inverted pendulum in suspended (upright) mode. It uses sensitivity functions to ensure robustness, performance, and stability under varying conditions.</p>
+
+    <div class="section">
+      <h2>Block Diagram:</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbPpki2LyCbcaLLV50yOduxw4i2qdLwunNue_5LPEx9e1K03ItuS8s-IAGy6Vf6dbHIYo&usqp=CAU" alt="Block Diagram" class="image" />
+    </div>
+
+    <div class="grid-2">
+      <div class="section">
+        <h3>Input r(t) parameters:</h3>
+        <ul>
+          <li>Step Input Magnitude: (0 to 2)</li>
+          <li>Step Time: (0 to 10 sec)</li>
+        </ul>
+
+        <h3>Controller (Kp, Ki, Kd) parameters:</h3>
+        <ul>
+          <li>Proportional Gain (Kp): (0.1 to 2.5)</li>
+          <li>Integral Gain (Ki): (0.1 to 0.5)</li>
+          <li>Derivative Gain (Kd): (0.25 to 5)</li>
+        </ul>
+
+        <h3>External Disturbance:</h3>
+        <ul>
+          <li>Magnitude (Md): (0.1 to 0.5)</li>
+          <li>Time (Td): (1.0 to 10.0 sec)</li>
+        </ul>
+      </div>
+
+      <div class="section camera">
+       <h3>Practical Output</h3>
+        <ul>
+          <li>Response</li>
+          <li>Rise Time</li>
+          <li>Peak Time</li>
+          <li>Settling Time</li>
+          <li>Steady State Error</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="section">
+        
+        </ul>
+      </div>
+
+      <div class="section">
+        
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button>Procedure</button>
+      <button>Mathematical Formulae</button>
+    </div>
+  </div>
+</body>
+</html>
